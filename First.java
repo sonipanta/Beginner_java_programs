@@ -23,7 +23,7 @@ public class First{
         }
         else{
             System.out.println("Username:"+email.substring(0,email.indexOf("@")));
-            System.out.println("Domain:"+email.substring(email.indexOf("@")));
+            System.out.println("Domain:"+email.substring(email.indexOf("@")+1));
         }
 
     }
